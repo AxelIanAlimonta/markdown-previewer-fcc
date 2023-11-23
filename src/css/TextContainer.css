@@ -1,0 +1,29 @@
+
+.textContainer {
+  flex-direction: column;
+  max-width: 80vw;
+  margin: 15px;
+  align-items: stretch;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.textContainter-barraSuperior{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: var(--color-naanja-oscuro);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.textContainter-title{
+    flex-grow:1;
+    margin: 0;
+    padding-left:10px;
+    font-size: 1em;
+
+}
