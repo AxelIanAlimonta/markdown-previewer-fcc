@@ -14,17 +14,22 @@
 #editor,#preview{
     background-color: var(--color-naanja-masClaro);
     padding: 10px;
+    width: 100%;
 }
 
 #editor {
-  width: 350px;
   height: 200px;
-  /* max-width: 100%; */
 }
 
-#preview {
-  /* max-width: 100%; */
+#previewContainer{
+  width: 1000px;
 }
+
+#editorContainer{
+  width: 500px;
+}
+
+
 
 #preview img {
   max-width: 100%;

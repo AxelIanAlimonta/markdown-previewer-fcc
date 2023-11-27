@@ -10,11 +10,13 @@ function TextContainer({
   visible,
   expanded,
   expandContractHandler,
+  id
 }) {
   return (
     <div
       className="textContainer"
       style={{ display: visible ? "flex" : "none" }}
+      id={id}
     >
       <div className="textContainter-barraSuperior">
         <FaCode width="20px" height="20px" />
@@ -43,6 +45,7 @@ TextContainer.propTypes = {
   visible: PropTypes.bool,
   expanded: PropTypes.bool,
   expandContractHandler: PropTypes.func,
+  id: PropTypes.string,
 };
 
 export default TextContainer;

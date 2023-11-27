@@ -33,6 +33,7 @@ function App() {
         visible={visibleEditor}
         expanded={expandedEditor}
         expandContractHandler={expandContractEditor}
+        id="editorContainer"
       >
         <Editor
           text={text}
@@ -45,6 +46,7 @@ function App() {
         visible={visiblePreview}
         expanded={expandedPreview}
         expandContractHandler={expandContractPreview}
+        id="previewContainer"
       >
         <Preview text={text} />
       </TextContainer>
